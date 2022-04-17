@@ -1,0 +1,48 @@
+.hmbkg{
+    text-align: center;
+    justify-content: center;
+    background-image: url(../images/bkg.jpg);
+    background-repeat: repeat;
+    color:white;
+}
+
+body{
+    color:white
+}
+
+a:visited, a:link, a:active{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    height: 200px;
+    border-bottom: white;
+}
+.navlinks{
+    float: right;
+    font-size: large;
+    border-bottom: 2px white;
+}
+
+.tablink{
+    font-size: large;
+    float: left;
+    border:white;
+}
+
+
+
+.footer{
+    padding-bottom: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    position: fixed;
+    font-style: italic;
+    background-color: brown;
+    z-index: -1;
+}
